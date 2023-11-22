@@ -8,37 +8,26 @@ body {
 
 @font-face {
   font-family: League;
-  src: url("/static/fonts/LeagueSpartan-Bold.otf");
+  src: url("/static/fonts/DIN Bold.ttf");
 }
 .chelsea_logo {
+  margin-right: 3%;
+  margin-top: 1%;
+}
+
+.nike_logo {
   margin-left: 3%;
   margin-top: 1%;
 }
 
-.chelsea-vid {
-  position: relative;
-  width: 300px;
-  height: auto;
-  border: 2px solid rgba(0, 226, 173, 0);
-  border-radius: 12px;
-  box-shadow: 0 0 100px black;
-}
-
-.chelsea-video {
-  position: absolute;
-  margin-left: 79%;
-  margin-top: 22%;
-  text-decoration: underline;
-}
-
 nav {
   position: absolute;
-  left: 70%;
-  top: 3%;
+  right: 57%;
+  top: 6%;
 }
 
 nav button {
-  margin-right: 10px;
+  margin-right: 25px;
   background-color: transparent;
   border: none;
   color: white;
@@ -47,4 +36,8 @@ nav button {
 
 ion-icon {
   color: white;
+  font-size: 159%;
+  position: absolute;
+  right: 10%;
+  top: 6%;
 }/*# sourceMappingURL=chelsea.css.map */
