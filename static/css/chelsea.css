@@ -1,5 +1,5 @@
 body {
-  background-image: url("/static/images/mudryk.png");
+  background-image: url("/static/images/Mykhailo_Mudryk_Chelsea_2022-23.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -7,37 +7,21 @@ body {
 }
 
 @font-face {
-  font-family: League;
-  src: url("/static/fonts/DIN Bold.ttf");
+  font-family: Din;
+  src: url(/static/fonts/DIN\ Bold.ttf);
 }
-.chelsea_logo {
-  margin-right: 3%;
-  margin-top: 1%;
-}
-
-.nike_logo {
-  margin-left: 3%;
-  margin-top: 1%;
-}
-
 nav {
-  position: absolute;
-  right: 57%;
-  top: 6%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 11%;
+  margin-top: 2%;
 }
 
-nav button {
-  margin-right: 25px;
+nav, button {
   background-color: transparent;
-  border: none;
-  color: white;
-  font-family: League;
-}
-
-ion-icon {
-  color: white;
-  font-size: 159%;
-  position: absolute;
-  right: 10%;
-  top: 6%;
+  border: transparent;
+  font-family: Din;
+  color: whitesmoke;
+  margin-right: 42px;
+  font-size: 94%;
 }/*# sourceMappingURL=chelsea.css.map */
