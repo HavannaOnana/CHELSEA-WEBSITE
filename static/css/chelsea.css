@@ -1,5 +1,5 @@
 body {
-  background-image: url("/static/images/Mykhailo_Mudryk_Chelsea_2022-23.webp");
+  background-image: url("/static/images/mudryk.png");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -14,7 +14,7 @@ nav {
   display: flex;
   flex-direction: row;
   margin-left: 11%;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 
 nav, button {
@@ -24,4 +24,10 @@ nav, button {
   color: whitesmoke;
   margin-right: 42px;
   font-size: 94%;
+}
+
+.chelsea_emblem {
+  color: white;
+  margin-top: -3%;
+  margin-left: 4%;
 }/*# sourceMappingURL=chelsea.css.map */
