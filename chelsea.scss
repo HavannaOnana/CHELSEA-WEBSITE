@@ -13,25 +13,17 @@ body{
 
 
 
-nav{
-   display: flex;
-   flex-direction: row;
+.nav{
    margin-left: 11%;
    margin-top: 3%;
-   
 }
 
-nav,button{
-    background-color: transparent;
-    border: transparent;
+
+.nav,a{
     font-family: Din;
-    color: whitesmoke;
+    color:white;
     margin-right: 42px;
     font-size: 94%;
+    text-decoration: none;
 }
 
-.chelsea_emblem{
-    color: white;
-    margin-top: -3%;
-    margin-left: 4%;
-}
