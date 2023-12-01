@@ -10,15 +10,74 @@ body {
   font-family: Din;
   src: url(/static/fonts/DIN\ Bold.ttf);
 }
-.nav {
-  margin-left: 11%;
-  margin-top: 3%;
+* {
+  box-sizing: border-box;
 }
 
-.nav, a {
+nav,
+.nav-item {
+  display: flex;
   font-family: Din;
+}
+
+nav {
+  border-radius: 6px;
   color: white;
-  margin-right: 42px;
-  font-size: 94%;
+  width: 645px;
+  cursor: pointer;
+  margin-left: 17%;
+  margin-top: 2%;
+}
+
+.nav2 {
+  display: flex;
+  margin-left: 70%;
+  align-items: center;
+  min-width: 120px;
+  justify-content: space-between;
+}
+
+.nav-item {
+  flex-direction: row-reverse;
+  font-size: 0.8999rem;
+  line-height: 1rem;
+  align-items: center;
+  min-width: 120px;
+  justify-content: space-between;
+  transition: all 80ms ease;
+}
+.nav-item.active {
+  color: white;
+  text-shadow: 0 0 3px hsla(222, 100%, 70%, 0.7);
+}
+.nav-item:not(.active):hover {
+  color: hsl(201, 98%, 33%);
+}
+.nav-item:hover > .icon .subicon {
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  top: -16px;
+  right: -16px;
+  border-color: white;
+}
+.nav-item a {
+  color: inherit;
   text-decoration: none;
+  padding: 1ch;
+}
+.nav-item .icon {
+  padding: 1ch;
+  position: relative;
+  margin-right: 123px;
+}
+.nav-item .icon > svg {
+  max-width: 16px;
+}
+
+.chelsea_emblem {
+  display: flex;
+  margin-top: -3%;
+  margin-left: 5%;
+  size: 20%;
 }/*# sourceMappingURL=chelsea.css.map */
